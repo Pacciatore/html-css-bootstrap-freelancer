@@ -11,3 +11,8 @@
 .tr-pt-main {
     padding-top: 77px;
 }
+
+/* CONTENT */
+#profile-presentation img {
+    width: 200px;
+}
