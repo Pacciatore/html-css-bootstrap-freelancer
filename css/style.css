@@ -27,7 +27,7 @@
 
 /* DEBUG */
 .debug #contact-me,
-.debug footer,
+.debug #footer-contacts,
 .debug #copyrights {
     min-height: 500px;
 }
