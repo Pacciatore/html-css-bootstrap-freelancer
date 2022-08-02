@@ -34,6 +34,27 @@
     width: 200px;
 }
 
+.tr-star {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.tr-star::before,
+.tr-star::after {
+    content: '';
+    display: inline-block;
+    height: 2px;
+    width: 10%;
+    border: 1px solid white;
+    border-radius: 2px;
+    vertical-align: middle;
+}
+
+.tr-star.tr-black-border::before,
+.tr-star.tr-black-border::after {
+    border: 1px solid black;
+}
+
 /* DEBUG */
 .debug #contact-me,
 .debug #footer-contacts,
